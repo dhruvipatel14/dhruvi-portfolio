@@ -17,6 +17,8 @@ import {
   docker,
   meta,
   winjit,
+  ecosmob,
+  electrum,
   tesla,
   shopify,
   carrent,
@@ -118,7 +120,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Winjit",
-    icon: winjit,
+    icon: electrum,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -131,7 +133,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Tesla",
-    icon: tesla,
+    icon: winjit,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -144,7 +146,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Shopify",
-    icon: shopify,
+    icon: ecosmob,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
