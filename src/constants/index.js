@@ -18,8 +18,6 @@ import {
   ecosmob,
   electrum,
   carrent,
-  jobit,
-  tripguide,
   threejs,
   pandas,
   redis,
@@ -33,11 +31,16 @@ import {
   aws,
   python,
 
+  ddos,
+  facial_exp,
+  sentiment_analysis,
+  tic_tac_toe,
+  checklist,
+  
   applied_nlp,
   deeplearning_ai,
   gcp,
   nlp_coursera
-
 
 } from "../assets";
 
@@ -51,9 +54,13 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "certifications",
+    title: "Certifications",
+  },
+  {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
 
 const services = [
@@ -253,59 +260,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Shutter Sphere",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web based social media platform that enables users to explore profiles, like and save posts, create and edit content, and browse other users.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react-query",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "shadcn",
+        color: "blue-text-gradient",
+      },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/dhruvipatel14/ShutterSphere/",
     website_link: "https://www.google.com/"
   },
   {
-    name: "Job IT",
+    name: "CheckList",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search add, update and delete TODO.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image:  checklist,
+    source_code_link: "https://github.com/dhruvipatel14/CheckBox/",
+    website_link: "https://checkbox-task-manager.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Tic Tac Toe",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based Tic Tac Toe game featuring current player tracking, game logging, and checks for winning combinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -313,10 +321,80 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tic_tac_toe,
+    website_link:"https://tic-tac-toe-o-x.netlify.app/",
+    source_code_link: "https://github.com/dhruvipatel14/tic-tac-toe",
+  },
+  {
+    name: "DDOS detections using timeseries",
+    description:
+      "Early DDOS attack detection for traffic flowing through network by time series forecasting using machine learning algorithms like ARIMA, SARIMA and LSTM.",
+    tags: [
+      {
+        name: "TimeSeries",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "LSTM",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ARIMA",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ddos,
+    source_code_link: "https://github.com/dhruvipatel14/ddos-detection-using-timeseries",
+  },
+  {
+    name: "Sentiment analysis of COVID-19 tweets",
+    description:
+      "Sentiment analysis of COVID-19 tweets from twitter by applying NLP techniques and building a pipeline for model training and predictions.",
+    tags: [
+      {
+        name: "NLP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pandas",
+        color: "green-text-gradient",
+      },
+     
+      {
+        name: "naive_bayes",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: sentiment_analysis,
+    source_code_link: "https://github.com/dhruvipatel14/twitter_sentiment_analysis_covid19",
+  },
+  {
+    name: "Facial Expression Recognition",
+    description:
+      "Facial expression recognition for video streaming and images by training CNN model and deployment using Flask application.",
+    tags: [
+      {
+        name: "CNN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "numpy",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: facial_exp,
+    source_code_link: "https://github.com/dhruvipatel14/Facial_Expression_Recognition",
   },
 ];
+
 
 const certificates = [
   {

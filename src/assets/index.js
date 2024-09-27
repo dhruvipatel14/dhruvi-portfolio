@@ -41,13 +41,17 @@ import ecosmob from './company/ecosmob.svg'
 import electrum from './company/electrum.webp'
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 import applied_nlp from './certifications/applied_nlp.jpg'
 import deeplearning_ai from './certifications/deeplearning_ai.png'
 import gcp from './certifications/gcp.png'
 import nlp_coursera from './certifications/nlp_coursera.png'
+
+import ddos from './projects/ddos.png'
+import facial_exp from './projects/facial_exp.png'
+import sentiment_analysis from './projects/sentiment_analysis.png'
+import tic_tac_toe from './projects/tic_tac_toe.png'
+import checklist from './projects/checklist.png'
 
 export {
   logo,
@@ -76,8 +80,7 @@ export {
   typescript,
   threejs,
   carrent,
-  jobit,
-  tripguide,
+  
   winjit,
   ecosmob,
   electrum,
@@ -96,5 +99,11 @@ export {
   applied_nlp,
   deeplearning_ai,
   gcp,
-  nlp_coursera
+  nlp_coursera,
+
+  ddos,
+  facial_exp,
+  sentiment_analysis,
+  tic_tac_toe,
+  checklist,
 };

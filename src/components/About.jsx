@@ -43,10 +43,14 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>OverView.</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] leading-[30xp]'>
-        With around 4 years of experience in backend development, I began my career as a software engineer on an ML product. Now, I build enterprise-level backend applications for mobile and web clients from the ground up.
-        My expertise spans Microservices, System Design, Kafka, AWS, Docker, CI/CD, SQL and NoSQL databases, REST API design, Web Sockets, Webhook, Celery (Distributed task queues), Redis, Asynchronous programming, AI, ML, NLP, Design Patterns, Django, and Python.
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] leading-[30xp] text-justify justify-evenly'>
 
+        I am a software engineer with around 4 years of experience in building backend applications.
+        Recently, I started exploring frontend technologies and have developed a passion for it.
+        My experience includes working with Microservices, Kafka, Redis, AWS, Docker, SQL/NoSQL, AI, ML, NLP, Django, React, Redux, Python, JavaScript, and TypeScript.
+        <br />
+        I'm a quick learner who collaborates closely with clients to create efficient, scalable, and user-friendly solutions that address real-world problems.
+        Let’s collaborate and bring innovative ideas to life!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
