@@ -17,7 +17,6 @@ import {
   winjit,
   ecosmob,
   electrum,
-  carrent,
   threejs,
   pandas,
   redis,
@@ -36,6 +35,7 @@ import {
   sentiment_analysis,
   tic_tac_toe,
   checklist,
+  shutter_sphere,
   
   applied_nlp,
   deeplearning_ai,
@@ -281,9 +281,9 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: shutter_sphere,
     source_code_link: "https://github.com/dhruvipatel14/ShutterSphere/",
-    website_link: "https://www.google.com/"
+    website_link: "https://shutter-sphere.netlify.app/"
   },
   {
     name: "CheckList",

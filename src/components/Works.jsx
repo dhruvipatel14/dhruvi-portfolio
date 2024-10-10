@@ -72,7 +72,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
               {
                 website_link && (
                   <div onClick={() => window.open(website_link, "_blank")}
-                    className='white-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+                    className='red-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer bg-red-600'>
                     <img src={link} alt="link" className=' object-contain' />
                   </div>
                 )
