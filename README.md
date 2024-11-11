@@ -1,8 +1,27 @@
-# React + Vite
+# My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live project link : [Portfolio](https://dhruvi-patel.netlify.app/)
 
-Currently, two official plugins are available:
+A mobile responsive perdonal portolio website.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tech stack:
+- React.js
+- Three.js
+- React Three Fiber
+- React Three Drei
+- Tailwind CSS
+
+### Features:
+- Interactive experience and work sections
+- 3D skills sections
+- Animated projects
+- Contact section with a 3D earth model
+- Consistent animations
+
+![image](https://github.com/user-attachments/assets/f161c941-dc19-4afc-81a5-b1a7029fc7aa)
+
+![image](https://github.com/user-attachments/assets/0e479065-292c-47dd-90ea-77326aa09afc)
+
+![image](https://github.com/user-attachments/assets/d34184bc-d005-4bac-bb51-7fe8d7764945)
+
+
