@@ -2,7 +2,7 @@
 
 ## Live project link : [Portfolio](https://dhruvi-patel.netlify.app/)
 
-A mobile responsive perdonal portolio website.
+A mobile responsive personal portfolio website.
 
 ### Tech stack:
 - React.js
