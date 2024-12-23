@@ -51,6 +51,7 @@ import sentiment_analysis from './projects/sentiment_analysis.png'
 import tic_tac_toe from './projects/tic_tac_toe.png'
 import checklist from './projects/checklist.png'
 import shutter_sphere from './projects/shutter_sphere.png'
+import dailyfinflow from './projects/dailyfinflow.png'
 
 export {
   logo,
@@ -104,6 +105,7 @@ export {
   sentiment_analysis,
   tic_tac_toe,
   checklist,
-  shutter_sphere
+  shutter_sphere,
+  dailyfinflow
 };
 

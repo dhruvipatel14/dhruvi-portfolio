@@ -44,13 +44,13 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] leading-[30xp] text-justify justify-evenly'>
-
-        I am a software engineer with around 4 years of experience in building backend applications.
-        Recently, I started exploring frontend technologies and have developed a passion for it.
-        My experience includes working with Microservices, Kafka, Redis, AWS, Docker, SQL/NoSQL, AI, ML, NLP, Django, React, Redux, Python, JavaScript, and TypeScript.
+        I am a software engineer with nearly four years of experience specializing in backend development and recently expanding into frontend technologies.
+        My technical background includes expertise in Microservices, Kafka, Redis, AWS, Docker, SQL/NoSQL, Django, React, Redux, Python, JavaScript,
+        TypeScript, AI, ML, and NLP.
         <br />
-        I'm a quick learner who collaborates closely with clients to create efficient, scalable, and user-friendly solutions that address real-world problems.
-        Let’s collaborate and bring innovative ideas to life!
+        Currently, I am seeking full-time software developer opportunities in Canada, where I can leverage my skills to create scalable, efficient, and user-friendly solutions. 
+        A quick learner and a collaborative professional, I am passionate about driving innovation and solving real-world problems. 
+        Let’s connect to build impactful technology together!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

@@ -18,8 +18,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Dhruvi</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop backend applications, <br className='sm:block hidden' />
-            ML products and full-stack web applications.
+            I develop scalable backends, <br className='sm:block hidden' />
+            full-stack web applications and ML products. 
           </p>
         </div>
       </div>

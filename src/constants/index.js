@@ -36,6 +36,7 @@ import {
   tic_tac_toe,
   checklist,
   shutter_sphere,
+  dailyfinflow,
   
   applied_nlp,
   deeplearning_ai,
@@ -265,7 +266,7 @@ const projects = [
       "A web based social media platform that enables users to explore profiles, like and save posts, create and edit content, and browse other users.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
@@ -286,23 +287,57 @@ const projects = [
     website_link: "https://shutter-sphere.netlify.app/"
   },
   {
-    name: "CheckList",
+    name: "DailyFinFlow",
     description:
-      "Web application that enables users to search add, update and delete TODO.",
+      "A personalized financial assistant that helps users to manage expenses, and personalized budgeting, provides actionable insights and financial forecasting.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
+      }, 
+      // {
+      //   name: "node.js",
+      //   color: "green-text-gradient",
+      // },
       {
-        name: "tailwindcss",
+        name: "express.js",
         color: "pink-text-gradient",
       },
+      {
+        name: "postgres",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "oauth",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image:  checklist,
-    source_code_link: "https://github.com/dhruvipatel14/CheckBox/",
-    website_link: "https://checkbox-task-manager.netlify.app/",
+    image: dailyfinflow,
+    source_code_link: "https://github.com/dhruvipatel14/DailyFinFlow/",
+    website_link: "https://dailyfinflow.netlify.app/"
   },
+  // {
+  //   name: "CheckList",
+  //   description:
+  //     "Web application that enables users to search add, update and delete TODO.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image:  checklist,
+  //   source_code_link: "https://github.com/dhruvipatel14/CheckBox/",
+  //   website_link: "https://checkbox-task-manager.netlify.app/",
+  // },
   {
     name: "Tic Tac Toe",
     description:
